@@ -1,8 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
-import path from "path";
-import { promises as fs } from "fs";
-
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Header from "../components/Header";

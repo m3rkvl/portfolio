@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import profile from "../images/profile.png";
 import profileTr from "../images/profileTransparent.png";
@@ -7,7 +8,13 @@ import Socials from "./Socials";
 const Hero = () => {
   return (
     <section className="relative w-full py-[9.6rem] px-28 lgb:px-4 dark:bg-zinc-900 bg-zinc-200 flex flex-col gap-4 items-center">
-      <article className="rounded-full slg:flex-col-reverse slg:rounded-3xl bg-gradient-to-tr w-[50rem] lgb:w-full dark:from-zinc-900 from-zinc-300 via-zinc-200 to-zinc-300 dark:via-zinc-800 dark:to-zinc-900 relative after:absolute after:inset-0 overflow-hidden after:opacity-0 after:bg-gradient-to-tr after:from-zinc-200 after:via-zinc-300 after:to-zinc-200 dark:after:from-zinc-800 dark:after:via-zinc-900 dark:after:to-zinc-800 border dark:border-zinc-700 border-zinc-300 flex justify-between items-center slg:py-12 slg:gap-6 slg:px-1 p-6 slg:items-center dark:text-zinc-100 after:transition-all after:duration-400 hover:after:opacity-100">
+      <motion.article
+        initial={{ y: 25, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.75, delay: 1 }}
+        className="heroCard"
+      >
         <div className="relative z-10 flex flex-col items-start gap-2 w-2/3 slg:w-full slg:items-center slg:text-center mx-10 mdb:mx-4 slg:mx-0">
           <h1 className="cursor-default select-none text-4xl mdb:text-3xl smb:text-2xl font-bold mb-2 smb2:text-xl">
             👋 Hey there! I&apos;m{" "}
@@ -37,8 +44,14 @@ const Hero = () => {
           />
         </div>
         <Socials />
-      </article>
-      <div className="flex gap-8 xs:gap-4">
+      </motion.article>
+      <motion.div
+        initial={{ y: 25, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.75, delay: 1.75 }}
+        className="flex gap-8 xs:gap-4"
+      >
         <a
           href="#projects"
           className="py-2 px-12 mt-6 text-lg xs:px-8 dark:text-zinc-900 text-zinc-100 font-semibold bg-gradient-to-t from-zinc-900 to-zinc-900 dark:from-zinc-100 dark:to-zinc-100 rounded-full border border-zinc-100 relative overflow-hidden after:absolute after:inset-0 after:bg-gradient-to-tr after:from-teal-500 after:via-blue-500 after:to-purple-500  after:opacity-0 hover:after:opacity-100 hover:after:translate-y-0 hover:border-zinc-200 after:transition-all after:duration-200 transition-all dark:hover:border-zinc-500 hover:text-zinc-100 duration-200"
@@ -53,8 +66,14 @@ const Hero = () => {
         >
           Resume
         </a>
-      </div>
-      <a href="#skills">
+      </motion.div>
+      <motion.a
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.75, delay: 2.5 }}
+        href="#skills"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -69,7 +88,7 @@ const Hero = () => {
             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
           />
         </svg>
-      </a>
+      </motion.a>
     </section>
   );
 };

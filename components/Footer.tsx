@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
+
 import Socials from "./Socials";
 
 const Footer = () => {
   return (
-    <footer className="relative p-10 flex flex-col items-center gap-3">
+    <motion.footer
+      initial={{ opacity: 0, scale: 0.75 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 1, duration: 1 }}
+      className="relative p-10 flex bg-zinc-200 dark:bg-zinc-900 flex-col items-center gap-3"
+    >
       <div className="flex flex-col gap-2 items-center">
         <h2 className="dark:text-zinc-200 text-zinc-800 text-center select-none text-2xl flex flex-wrap justify-center items-center">
           Would love to connect <span className="text-red-500">&nbsp;❤</span>
@@ -18,7 +26,7 @@ const Footer = () => {
       >
         Back to top &uarr;
       </a>
-    </footer>
+    </motion.footer>
   );
 };
 

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex z-50 fixed top-6 left-0 right-0 px-6 justify-between gap-4">
       <nav>
-        <a href="#">
+        <a href="#" title="Go to the top of the page">
           <Image
             src={logo}
             alt="Murat Erkal's Logo"
@@ -16,7 +16,7 @@ const Header = () => {
           />
         </a>
       </nav>
-      <menu>
+      <menu title="Toggle dark mode">
         <Switcher />
       </menu>
     </header>

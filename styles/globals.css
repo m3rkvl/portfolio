@@ -7,7 +7,11 @@
 }
 
 body {
-  @apply selection:text-zinc-100 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm;
+  @apply selection:text-zinc-100 bg-zinc-900 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm;
+}
+
+.heroCard {
+  @apply rounded-full slg:flex-col-reverse slg:rounded-3xl bg-gradient-to-tr w-[50rem] lgb:w-full dark:from-zinc-900 from-zinc-300 via-zinc-200 to-zinc-300 dark:via-zinc-800 dark:to-zinc-900 relative after:absolute after:inset-0 overflow-hidden after:opacity-0 after:bg-gradient-to-tr after:from-zinc-200 after:via-zinc-300 after:to-zinc-200 dark:after:from-zinc-800 dark:after:via-zinc-900 dark:after:to-zinc-800 border dark:border-zinc-700 border-zinc-300 flex justify-between items-center slg:py-12 slg:gap-6 slg:px-1 p-6 slg:items-center dark:text-zinc-100 after:transition-all after:duration-200 hover:after:opacity-100;
 }
 
 .skillsSection {
