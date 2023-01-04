@@ -5,9 +5,9 @@ import Switcher from "./UI/Switcher";
 
 const Header = () => {
   return (
-    <header className="flex z-50 fixed top-6 left-0 right-0 px-6 justify-between gap-4">
+    <header className="flex z-50 fixed top-6 left-0 right-0 px-24 justify-center gap-4">
       <nav>
-        <a href="#" title="Go to the top of the page">
+        <a href="#" title="Go to the top of the top">
           <Image
             src={logo}
             alt="Murat Erkal's Logo"

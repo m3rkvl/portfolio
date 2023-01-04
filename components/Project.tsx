@@ -24,8 +24,12 @@ const Project = ({ project, ind, last }: projectType) => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: ind % 2 === 0 ? 50 : -50 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{
+        opacity: 0,
+        x: ind % 2 === 0 ? 50 : -50,
+        visibility: "hidden",
+      }}
+      whileInView={{ opacity: 1, x: 0, visibility: "visible" }}
       viewport={{ once: true }}
       transition={{
         delay: 0.4,
@@ -47,7 +51,7 @@ const Project = ({ project, ind, last }: projectType) => {
             ind % 2 === 0 ? "" : "flex-row-reverse"
           }`}
         >
-          <div className="relative flex-shrink-0">
+          <div className="relative flex-shrink-0 ">
             <div
               className={`absolute -inset-0.5 opacity-50 rounded-xl blur animate-tilt ${giveGradient(
                 title
@@ -59,7 +63,7 @@ const Project = ({ project, ind, last }: projectType) => {
                 alt={`Cover image for ${project.title}`}
                 width={1200}
                 height={800}
-                className="h-96 w-auto mdb:h-full object-contain relative select-none rounded-xl"
+                className=" w-full  object-contain relative select-none rounded-xl"
               />
             </div>
           </div>
