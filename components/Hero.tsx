@@ -8,11 +8,10 @@ import Socials from "./Socials";
 const Hero = () => {
   const durationDef = 0.5;
   return (
-    <section className="relative w-full py-[9.6rem] px-28 lgb:px-4 dark:bg-zinc-900 bg-zinc-200 flex flex-col gap-4 items-center">
+    <section className="relative w-full py-[9rem] xxs:py-[5rem] px-28 lgb:px-4 dark:bg-zinc-900 bg-zinc-200 flex flex-col gap-4 items-center">
       <motion.article
         initial={{ y: 25, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
+        animate={{ y: 0, opacity: 1 }}
         transition={{ duration: durationDef, delay: 1 }}
         className="heroCard"
       >
@@ -48,8 +47,7 @@ const Hero = () => {
       </motion.article>
       <motion.div
         initial={{ y: 25, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
+        animate={{ y: 0, opacity: 1 }}
         transition={{ duration: durationDef, delay: 1.5 }}
         className="flex gap-8 xs:gap-4"
       >
@@ -70,8 +68,7 @@ const Hero = () => {
       </motion.div>
       <motion.a
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
+        animate={{ opacity: 1 }}
         transition={{ duration: durationDef, delay: 2.25 }}
         href="#skills"
       >

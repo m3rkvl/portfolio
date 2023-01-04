@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-zinc-800 w-full py-24 justify-center px-8 flex flex-col dark:bg-opacity-100 bg-opacity-25 items-center gap-10 skillsSection"
+      className="bg-zinc-800 w-full py-24 justify-center px-8 flex flex-col dark:bg-opacity-100 bg-opacity-25 items-center gap-12 skillsSection"
     >
       <header>
         <motion.h2

@@ -21,6 +21,7 @@ module.exports = {
         smb2: { max: "572px" },
         slg: { max: "505px" },
         xs: { max: "430px" },
+        xxs: { raw: "(max-height: 740px)" },
       },
       animation: {
         tilt: "tilt 5s infinite linear",
