@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
             delay: 0.5,
             duration: 0.5,
           }}
-          className="w-full min-h-screen"
+          className="w-full min-h-screen overflow-x-hidden"
           variants={{
             initialState: {
               opacity: 0,
