@@ -7,7 +7,7 @@
 }
 
 body {
-  @apply selection:text-zinc-100 bg-zinc-900 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm;
+  @apply selection:text-zinc-100 bg-zinc-900 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm overflow-x-hidden;
 }
 
 .heroCard {
