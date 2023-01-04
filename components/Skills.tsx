@@ -17,9 +17,9 @@ import netlify from "../images/skills/netlify.svg";
 import ToolTip from "./UI/ToolTip";
 
 const Skills = () => {
-  const durationAmount = 0.3;
-  const initDelay = 3.25;
-  const delayAmount = 0.2;
+  const durationAmount = 0.25;
+  const initDelay = 3;
+  const delayAmount = 0.25;
 
   return (
     <section
@@ -29,7 +29,8 @@ const Skills = () => {
       <header>
         <motion.h2
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 3.25 }}
           className="text-zinc-600 select-none cursor-default text-base font-bold tracking-widest flex gap-4"
         >
@@ -40,10 +41,11 @@ const Skills = () => {
       <ul className="flex flex-wrap justify-center gap-6">
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
-            delay: 3.5 + delayAmount * 1,
+            delay: initDelay + delayAmount * 1,
           }}
         >
           <ToolTip name="HTML5">
@@ -58,7 +60,8 @@ const Skills = () => {
 
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 2,
@@ -70,7 +73,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 3,
@@ -87,7 +91,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 4,
@@ -104,7 +109,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 5,
@@ -121,7 +127,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 6,
@@ -138,7 +145,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 7,
@@ -155,7 +163,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 8,
@@ -172,7 +181,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 9,
@@ -189,7 +199,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 10,
@@ -206,7 +217,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 11,
@@ -223,7 +235,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 12,
@@ -240,7 +253,8 @@ const Skills = () => {
         </motion.li>
         <motion.li
           initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: durationAmount,
             delay: initDelay + delayAmount * 13,

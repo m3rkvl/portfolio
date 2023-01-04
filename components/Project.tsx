@@ -51,7 +51,7 @@ const Project = ({ project, ind, last }: projectType) => {
             ind % 2 === 0 ? "" : "flex-row-reverse"
           }`}
         >
-          <div className="relative flex-shrink-0 ">
+          <div className="relative flex-shrink-0 w-2/3 mdb:w-full">
             <div
               className={`absolute -inset-0.5 opacity-50 rounded-xl blur animate-tilt ${giveGradient(
                 title
@@ -63,7 +63,7 @@ const Project = ({ project, ind, last }: projectType) => {
                 alt={`Cover image for ${project.title}`}
                 width={1200}
                 height={800}
-                className=" w-full  object-contain relative select-none rounded-xl"
+                className="w-full object-contain relative select-none rounded-xl"
               />
             </div>
           </div>
@@ -127,8 +127,5 @@ const Project = ({ project, ind, last }: projectType) => {
 export default Project;
 
 /*
-ARTICLE CLASSLIST
-className={`w-[64rem] flex justify-between gap-16 p-6 bg-zinc-800 bg-opacity-30 border border-zinc-700 border-opacity-30 shadow-bg rounded-xl hover:border-opacity-50 ${
-          ind % 2 === 0 ? "" : "flex-row-reverse"
-        }`}
+h-96 w-auto mdb:h-full
 */

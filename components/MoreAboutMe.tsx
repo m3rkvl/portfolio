@@ -18,8 +18,8 @@ const MoreAboutMe = () => {
         </motion.h2>
       </header>
       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, y: -25 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.4, duration: 0.75 }}
         className="text-zinc-300 cursor-default relative z-10 flex flex-col gap-6 w-1/2 lg:w-3/4 slg:text-sm slg:w-full text-center"

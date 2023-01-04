@@ -6,13 +6,14 @@ import profileTr from "../images/profileTransparent.png";
 import Socials from "./Socials";
 
 const Hero = () => {
+  const durationDef = 0.5;
   return (
     <section className="relative w-full py-[9.6rem] px-28 lgb:px-4 dark:bg-zinc-900 bg-zinc-200 flex flex-col gap-4 items-center">
       <motion.article
         initial={{ y: 25, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.75, delay: 1 }}
+        transition={{ duration: durationDef, delay: 1 }}
         className="heroCard"
       >
         <div className="relative z-10 flex flex-col items-start gap-2 w-2/3 slg:w-full slg:items-center slg:text-center mx-10 mdb:mx-4 slg:mx-0">
@@ -49,7 +50,7 @@ const Hero = () => {
         initial={{ y: 25, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.75, delay: 1.75 }}
+        transition={{ duration: durationDef, delay: 1.5 }}
         className="flex gap-8 xs:gap-4"
       >
         <a
@@ -71,7 +72,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.75, delay: 2.5 }}
+        transition={{ duration: durationDef, delay: 2.25 }}
         href="#skills"
       >
         <svg
