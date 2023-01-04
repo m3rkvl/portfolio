@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 
 export default function useDarkSide() {
   const [theme, setTheme] = useState(
-    typeof window !== "undefined" ? localStorage.theme : "light"
+    typeof window !== "undefined"
+      ? localStorage.theme
+        ? localStorage.theme
+        : "dark"
+      : "dark"
   );
   const colorTheme = theme === "dark" ? "light" : "dark";
 
