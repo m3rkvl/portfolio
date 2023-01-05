@@ -24,14 +24,14 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-zinc-800 w-full py-24 justify-center px-8 flex flex-col dark:bg-opacity-100 bg-opacity-25 items-center gap-12 skillsSection"
+      className="w-full py-24 skillsBg justify-center px-8 flex flex-col items-center gap-12 bg-skills-light dark:bg-skills-dark"
     >
       <header>
         <motion.h2
           initial={{ opacity: 0, y: -25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 3.25 }}
-          className="text-zinc-600 select-none cursor-default text-base font-bold tracking-widest flex gap-4"
+          className="dark:text-zinc-600 text-zinc-400 select-none cursor-default text-base font-bold tracking-widest flex gap-4"
         >
           F A M I L I A R <span>W I T H</span>
         </motion.h2>

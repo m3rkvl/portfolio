@@ -8,8 +8,19 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  variants: {
+    extend: {
+      backgroundImage: ["dark"],
+    },
+  },
   theme: {
     extend: {
+      backgroundImage: {
+        "skills-light": "url('/images/skills.svg')",
+        "skills-dark": "url('/images/skills-dark.svg')",
+        "more-light": "url('/images/more.svg')",
+        "more-dark": "url('/images/more-dark2.svg')",
+      },
       screens: {
         "2xl": { max: "1535px" },
         hxl: { max: "1350px" },

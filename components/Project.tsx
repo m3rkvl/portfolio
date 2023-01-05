@@ -87,7 +87,7 @@ const Project = ({ project, ind, last }: projectType) => {
                 </li>
               ))}
             </ul>
-            <p className="dark:text-zinc-200 text-zinc-600 lg:w-2/3 smb2:w-full lg:mt-4 xs:text-sm lg:text-center cursor-default mt-6">
+            <p className="dark:text-zinc-300 text-zinc-600 lg:w-2/3 smb2:w-full lg:mt-4 xs:text-sm lg:text-center cursor-default mt-6 font-semibold indent-4">
               {project.desc}
             </p>
             <div className="flex gap-6 mt-8 lg:mt-6 text-lg items-center parallaxBtns">

@@ -15,7 +15,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="flex flex-col items-center selection:text-zinc-100 bg-zinc-900 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm overflow-x-hidden">
+      <body className="flex flex-col items-center selection:text-zinc-100 bg-zinc-200 dark:bg-zinc-900 selection:bg-zinc-600 selection:bg-opacity-25 selection:backdrop-blur-sm overflow-x-hidden font-sans">
         <Main />
         <NextScript />
       </body>

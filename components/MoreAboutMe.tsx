@@ -4,7 +4,7 @@ const MoreAboutMe = () => {
   return (
     <section
       id="moreAboutMe"
-      className="bg-zinc-800 relative w-full py-24 justify-center px-8 flex flex-col items-center gap-10 moreSection bg-opacity-50 xs:px-3"
+      className="bg-zinc-800 relative skillsBg w-full py-24 justify-center px-8 flex flex-col items-center gap-4 bg-more-light dark:bg-more-dark bg-opacity-50 xs:px-3"
     >
       <header>
         <motion.h2
@@ -22,13 +22,13 @@ const MoreAboutMe = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.4, duration: 0.75 }}
-        className="text-zinc-300 cursor-default relative z-10 flex flex-col gap-6 w-1/2 lg:w-3/4 slg:text-sm slg:w-full text-center"
+        className="dark:text-zinc-300 text-zinc-500 cursor-default relative z-10 flex flex-col gap-6 w-1/2 lg:w-3/4 slg:text-sm slg:w-full text-center"
       >
         <div>
-          <h3 className="text-2xl font-semibold text-zinc-200">
+          <h3 className="text-2xl font-semibold text-zinc-800 dark:text-zinc-200">
             Hi again! I&apos;m Murat Erkal.{" "}
           </h3>
-          <span className="text-sm text-zinc-400 font-normal">
+          <span className="text-sm dark:text-zinc-400 text-zinc-600 font-normal">
             As you know by now.
           </span>
         </div>
@@ -39,9 +39,10 @@ const MoreAboutMe = () => {
           transition={{ delay: 0.8, duration: 0.75 }}
           className="selection:text-zinc-100 selection:bg-teal-500 selection:bg-opacity-25 selection:backdrop-blur-sm"
         >
-          I thought of <span className="text-teal-500">coding</span> as this
-          mysterious and scary alien-tech that I would never be able to learn.
-          Recently that changed, and here we are... I love learning new
+          I thought of{" "}
+          <span className="dark:text-teal-500 text-teal-600">coding</span> as
+          this mysterious and scary alien-tech that I would never be able to
+          learn. Recently that changed, and here we are... I love learning new
           technologies and building useful apps with them. The challenges coding
           brings and the process of overcoming those challenges has evolved into
           a passion in which I lose the track of time for me.
@@ -65,10 +66,11 @@ const MoreAboutMe = () => {
           transition={{ delay: 1.2, duration: 0.75 }}
           className="selection:text-zinc-100 selection:bg-amber-500 selection:bg-opacity-25 selection:backdrop-blur-sm"
         >
-          Also, I live and breathe <span className="text-amber-500">music</span>
-          . Any time of the day you&apos;ll most probably find me listening to
-          music. No matter what I&apos;m doing... I also love making music. Very
-          much amateurly, but still I love it.
+          Also, I live and breathe{" "}
+          <span className="dark:text-amber-500 text-amber-600">music</span>. Any
+          time of the day you&apos;ll most probably find me listening to music.
+          No matter what I&apos;m doing... I also love making music. Very much
+          amateurly, but still I love it.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, x: 25 }}
