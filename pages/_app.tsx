@@ -7,7 +7,10 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Murat Erkal</title>
+        <meta name="description">
+          Front end developer Murat Erkal&apos;s portfolio website.
+        </meta>
+        <title>Murat Erkal | Front End Developer</title>
       </Head>
       <AnimatePresence mode="wait">
         <motion.div

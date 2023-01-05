@@ -71,6 +71,8 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: durationDef, delay: 2.25 }}
         href="#skills"
+        aria-label="Navigate down."
+        title="Navigate down."
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
