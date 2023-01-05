@@ -7,20 +7,20 @@ import Footer from "../components/Footer";
 
 const projects = [
   {
-    title: "watchably.fun",
-    desc: "A full stack app where users can create and manage their watchlist. Users can save a movie or a series as 'To Watch', 'Watched', or 'Favorite'. They can also rate the titles they've watched.",
-    tech: ["React", "SCSS", "Firebase"],
-    img: "watchablyCover",
-    link: "https://watchably.fun",
-    gitLink: "https://github.com/m3rkvl/watchably",
-  },
-  {
     title: "poller.host",
     desc: "A full stack app where users can create, vote on, and see result of polls. They can restrict the amount of votes and/or participation.",
     tech: ["React", "TypeScript", "Tailwind", "Firebase"],
     img: "pollerCover",
     link: "https://poller.host",
     gitLink: "https://github.com/m3rkvl/poller",
+  },
+  {
+    title: "watchably.fun",
+    desc: "A full stack app where users can create and manage their watchlist. Users can save a movie or a series as 'To Watch', 'Watched', or 'Favorite'. They can also rate the titles they've watched.",
+    tech: ["React", "SCSS", "Firebase"],
+    img: "watchablyCover",
+    link: "https://watchably.fun",
+    gitLink: "https://github.com/m3rkvl/watchably",
   },
   {
     title: "mapty.xyz",

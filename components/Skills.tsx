@@ -31,9 +31,14 @@ const Skills = () => {
           initial={{ opacity: 0, y: -25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 3.25 }}
-          className="dark:text-zinc-600 text-zinc-400 select-none cursor-default text-base font-bold tracking-widest flex gap-4"
+          className="flex flex-col gap-1 items-center"
         >
-          F A M I L I A R <span>W I T H</span>
+          <span className="dark:text-zinc-600 text-zinc-400 select-none cursor-default text-base font-bold tracking-widest flex gap-4">
+            F A M I L I A R <span>W I T H</span>
+          </span>
+          <span className="dark:text-zinc-700 mdb:hidden text-zinc-300 select-none cursor-default text-sm italic -mt-1">
+            You can hover on the logos to see the names
+          </span>
         </motion.h2>
       </header>
 
@@ -53,6 +58,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">HTML5</p>
           </ToolTip>
         </motion.li>
 
@@ -66,6 +72,7 @@ const Skills = () => {
         >
           <ToolTip name="CSS">
             <Image src={css} alt="CSS logo" height={32} className="skillLogo" />
+            <p className="techName">CSS3</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -79,10 +86,11 @@ const Skills = () => {
           <ToolTip name="SCSS">
             <Image
               src={sass}
-              alt="Sass logo"
+              alt="SCSS logo"
               height={32}
               className="skillLogo"
             />
+            <p className="techName">SCSS</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -100,6 +108,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Tailwind CSS</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -117,6 +126,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">JavaScript</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -134,6 +144,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">TypeScript</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -151,6 +162,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">React</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -168,6 +180,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Next.js</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -185,6 +198,7 @@ const Skills = () => {
               height={32}
               className="skillLogo grayscale brightness-200"
             />
+            <p className="techName">Redux</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -202,6 +216,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Firebase</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -219,6 +234,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Figma</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -236,6 +252,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Photoshop</p>
           </ToolTip>
         </motion.li>
         <motion.li
@@ -253,6 +270,7 @@ const Skills = () => {
               height={32}
               className="skillLogo"
             />
+            <p className="techName">Netlify</p>
           </ToolTip>
         </motion.li>
       </ul>

@@ -39,13 +39,14 @@ const MoreAboutMe = () => {
           transition={{ delay: 0.8, duration: 0.75 }}
           className="selection:text-zinc-100 selection:bg-teal-500 selection:bg-opacity-25 selection:backdrop-blur-sm"
         >
-          I thought of{" "}
-          <span className="dark:text-teal-500 text-teal-600">coding</span> as
-          this mysterious and scary alien-tech that I would never be able to
-          learn. Recently that changed, and here we are... I love learning new
-          technologies and building useful apps with them. The challenges coding
-          brings and the process of overcoming those challenges has evolved into
-          a passion in which I lose the track of time for me.
+          I believe{" "}
+          <span className="dark:text-teal-500 text-teal-600">coding</span> and
+          teaching are very similar in that both are ongoing learning routines
+          in which seeing the results you were aiming for is one of the most
+          gratifying experience. I love acquiring new technologies and building
+          helpful apps with them. The process of overcoming the challenges
+          inherent in coding has become a true love for me, one that consumes my
+          time and attention almost completely.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, x: 25 }}
@@ -54,10 +55,10 @@ const MoreAboutMe = () => {
           transition={{ delay: 1, duration: 0.75 }}
           className="selection:text-zinc-100 selection:bg-purple-500 selection:bg-opacity-25 selection:backdrop-blur-sm"
         >
-          I&apos;ve been interested in{" "}
-          <span className="text-purple-500">design</span> for many years now. I
-          designed clothing, websites, logos, characters, vehicles etc. I love
-          imagining things and turning them into some form of reality.
+          I&apos;ve been fascinated with{" "}
+          <span className="text-purple-500">design</span> for many years now.
+          Conceptualizing ideas and bringing them to fruition of some sort have
+          become a passion of mine.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, x: -25 }}
@@ -68,9 +69,9 @@ const MoreAboutMe = () => {
         >
           Also, I live and breathe{" "}
           <span className="dark:text-amber-500 text-amber-600">music</span>. Any
-          time of the day you&apos;ll most probably find me listening to music.
-          No matter what I&apos;m doing... I also love making music. Very much
-          amateurly, but still I love it.
+          time of the day you&apos;ll most probably find me with with earbuds in
+          my ears. I also have a great love for creating music, although I am
+          very much an amateur.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, x: 25 }}
@@ -79,10 +80,10 @@ const MoreAboutMe = () => {
           transition={{ delay: 1.4, duration: 0.75 }}
           className="selection:text-zinc-100 selection:bg-blue-500 selection:bg-opacity-25 selection:backdrop-blur-sm"
         >
-          Lastly, I&apos;m an{" "}
-          <span className="text-blue-500">English teacher</span>. I absolutely
-          loved teaching English to and interacting with my students. It was an
-          experience that I&apos;ll forever be grateful for.
+          As an <span className="text-blue-500">English teacher</span>, I have
+          had the pleasure of teaching and interacting with many students, and
+          it was an experience that I will always cherish and remember with
+          gratitude.
         </motion.p>
       </motion.div>
     </section>
