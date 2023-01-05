@@ -24,8 +24,8 @@ const Hero = () => {
             .
           </h1>
           <p className="cursor-default select-none text-2xl mdb:text-lg smb:text-base dark:text-zinc-400 text-zinc-800 leading-7 mb-4 mdb:mb-2 smb2:text-sm">
-            A front end developer who also <br /> teaches English and loves
-            making music.
+            A front end developer who also designs, <br /> teaches English and
+            loves making music.
           </p>
           <a
             href="#moreAboutMe"

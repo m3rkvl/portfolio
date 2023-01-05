@@ -79,8 +79,8 @@ const MoreAboutMe = () => {
         >
           Lastly, I&apos;m an{" "}
           <span className="text-blue-500">English teacher</span>. I absolutely
-          loved teaching and interecting with my students. It was an experience
-          that I&apos;ll forever be grateful for.
+          loved teaching English to and interacting with my students. It was an
+          experience that I&apos;ll forever be grateful for.
         </motion.p>
       </motion.div>
     </section>
