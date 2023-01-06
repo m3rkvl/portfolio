@@ -48,7 +48,7 @@ const Socials = ({ absolute = true }: SocialsProps) => {
       </ToolTip>
       <ToolTip name="Email.">
         <a
-          href="mailto:half-hour@outlook.com"
+          href="mailto:murat-erkal@outlook.com"
           rel="noopener noreferrer"
           target="_blank"
           className="rounded-full block"
