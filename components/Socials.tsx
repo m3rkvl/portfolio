@@ -18,7 +18,7 @@ const Socials = ({ absolute = true }: SocialsProps) => {
     >
       <ToolTip name="LinkedIn">
         <a
-          href="https://www.linkedin.com/in/murat-erkal-6270451b6/"
+          href="https://www.linkedin.com/in/murat-erkal/"
           rel="noopener noreferrer"
           target="_blank"
           className="rounded-full block"
