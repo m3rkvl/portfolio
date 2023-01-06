@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
+import { useMediaQuery } from "react-responsive";
 
 import giveGradient from "../util/giveGradient";
 import giveTechBg from "../util/giveTechBg";
@@ -18,7 +19,9 @@ type projectType = {
   last: number;
 };
 
-const Project = ({ project, ind, last }: projectType) => {
+const Project = ({ project, ind }: projectType) => {
+  const isTabletOrMobile = useMediaQuery({ query: "(hover: hover)" });
+
   const title = project.title.split(".")[0];
   const namespace = "." + project.title.split(".")[1];
 
@@ -37,6 +40,7 @@ const Project = ({ project, ind, last }: projectType) => {
       }}
     >
       <Tilt
+        tiltEnable={isTabletOrMobile}
         glareEnable={false}
         tiltMaxAngleX={5}
         tiltMaxAngleY={5}
