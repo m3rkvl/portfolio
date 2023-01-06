@@ -60,7 +60,9 @@ const Hero = () => {
           </span>
         </a>
         <a
-          href="#resume"
+          href="https://drive.google.com/file/d/1VIBxy3LhFtiPWPcXAst6jpKhPYH9IDN1/view?usp=sharing"
+          rel="noopener noreferrer"
+          target="_blank"
           className="py-2 px-12 mt-6 xs:px-8 text-lg font-semibold select-none dark:text-zinc-100 text-zinc-900  border dark:hover:text-zinc-200 hover:text-zinc-700 hover:border-zinc-500 border-zinc-900 dark:border-zinc-100 rounded-full dark:hover:border-zinc-500 transition-all duration-200"
         >
           Resume
