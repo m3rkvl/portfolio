@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: "mapty.xyz",
-    desc: "An app where users can save the locations of and some additional data about their workouts (currently only running and cycling) on a map and see all the locations they've cycled or ran in. Planning on building a backend for this app.",
+    desc: "An app where users can save the locations of and some additional data about their workouts (currently only running and cycling) on a map and see all the locations they've cycled or ran in. Planning on building a backend for this app. Improved version of Jonas Schmedtmann's course project.",
     tech: ["JavaScript"],
     img: "maptyCover",
     link: "https://mapty.xyz",
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     title: "pigdi.fun",
-    desc: "A dice game called 'Pig'. Two players roll dice and try to collect as much points as possible until they roll 1, in which case they lose their turn to their opponent. First to reach 100 points wins. Planning on making it multiplayer.",
+    desc: "A dice game called 'Pig'. Two players roll dice and try to collect as much points as possible until they roll 1, in which case they lose their turn to their opponent. First to reach 100 points wins. Planning on making it multiplayer. Improved version of Jonas Schmedtmann's course project.",
     tech: ["JavaScript"],
     img: "pigdiCover",
     link: "https://pigdi.fun",
