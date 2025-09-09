@@ -11,7 +11,7 @@ const projects = [
     desc: "A full stack app where users can create, vote on, and see result of polls. They can restrict the amount of votes and/or participation.",
     tech: ["React", "TypeScript", "Tailwind", "Firebase"],
     img: "pollerCover",
-    link: "https://poller.host",
+    link: "https://poller-host.netlify.app",
     gitLink: "https://github.com/m3rkvl/poller",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     desc: "A full stack app where users can create and manage their watchlist. Users can save a movie or a series as 'To Watch', 'Watched', or 'Favorite'. They can also rate the titles they've watched.",
     tech: ["React", "SCSS", "Firebase"],
     img: "watchablyCover",
-    link: "https://watchably.fun",
+    link: "https://watchably.netlify.app",
     gitLink: "https://github.com/m3rkvl/watchably",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     desc: "An app where users can save the locations of and some additional data about their workouts (currently only running and cycling) on a map and see all the locations they've cycled or ran in. Planning on building a backend for this app. Improved version of Jonas Schmedtmann's course project.",
     tech: ["JavaScript"],
     img: "maptyCover",
-    link: "https://mapty.xyz",
+    link: "https://mapty-m3rkvl.netlify.app",
     gitLink: "https://github.com/m3rkvl/mapty",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     desc: "A dice game called 'Pig'. Two players roll dice and try to collect as much points as possible until they roll 1, in which case they lose their turn to their opponent. First to reach 100 points wins. Planning on making it multiplayer. Improved version of Jonas Schmedtmann's course project.",
     tech: ["JavaScript"],
     img: "pigdiCover",
-    link: "https://pigdi.fun",
+    link: "https://dicegame-m3rkvl.netlify.app",
     gitLink: "https://github.com/m3rkvl/pigdi",
   },
 ];
